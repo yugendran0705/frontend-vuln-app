@@ -1,0 +1,16 @@
+[Unit]
+Description=Bookshelf vulnerable demo app
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu/frontend-vuln-app
+Environment=PORT=4000
+Environment=NODE_ENV=production
+ExecStart=/usr/bin/node server/index.js
+Restart=on-failure
+RestartSec=2
+
+[Install]
+WantedBy=multi-user.target

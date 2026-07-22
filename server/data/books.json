@@ -1,0 +1,30 @@
+[
+  {
+    "id": "03fb675f-f5a9-4739-8b14-284c69ce96dc",
+    "title": "1984",
+    "author": "George Orwell",
+    "year": 1949,
+    "userId": "b793f669-b124-45f0-8793-85a084a4d143"
+  },
+  {
+    "id": "3998af13-a453-4c2b-910c-304a8e3f3b0f",
+    "title": "Brave New World",
+    "author": "Aldous Huxley",
+    "year": 1932,
+    "userId": "b793f669-b124-45f0-8793-85a084a4d143"
+  },
+  {
+    "id": "2139aac0-0cea-4916-993d-3ac041286770",
+    "title": "Fahrenheit 451",
+    "author": "Ray Bradbury",
+    "year": 1953,
+    "userId": "c5e672df-3a81-485d-b8c5-de3afc29da80"
+  },
+  {
+    "id": "49ef762a-23f0-4ee5-878e-162ae10a22d7",
+    "title": "The Hobbit",
+    "author": "J.R.R. Tolkien",
+    "year": 1937,
+    "userId": "c5e672df-3a81-485d-b8c5-de3afc29da80"
+  }
+]

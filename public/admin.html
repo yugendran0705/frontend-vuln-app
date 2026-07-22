@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<title>Bookshelf - Admin Panel</title>
+<link rel="stylesheet" href="/css/style.css" />
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <h1>🛠 Admin Panel</h1>
+    <div>
+      <span id="whoami" class="small"></span>
+      <a href="/dashboard.html"><button class="secondary">My Books</button></a>
+      <button class="secondary" onclick="logout()">Logout</button>
+    </div>
+  </div>
+
+  <p id="error" class="error"></p>
+
+  <div class="card">
+    <h2>All users &amp; their books</h2>
+    <table>
+      <thead>
+        <tr><th>Name</th><th>Username</th><th>Role</th><th>Books</th></tr>
+      </thead>
+      <tbody id="rows"></tbody>
+    </table>
+  </div>
+</div>
+
+<script src="/js/api.js"></script>
+<script src="/js/admin.js"></script>
+</body>
+</html>
